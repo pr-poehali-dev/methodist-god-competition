@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -11,26 +10,26 @@ const Index = () => {
       {/* Шапка сайта */}
       <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 shadow-md">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-          <h1 className="text-3xl font-bold mb-4 md:mb-0">Конкурс "Методист года"</h1>
+          <h1 className="text-3xl font-bold mb-4 md:mb-0">Конкурс "Педагог-исследователь года"</h1>
           <p className="text-lg font-medium">Дошкольная образовательная организация</p>
         </div>
       </header>
 
       {/* Основной контент */}
       <main className="container mx-auto py-8 px-4">
-        {/* Профиль методиста */}
+        {/* Профиль педагога-исследователя */}
         <section className="mb-10">
           <Card className="shadow-lg">
             <CardHeader className="bg-gradient-to-r from-slate-100 to-slate-200">
               <div className="flex flex-col md:flex-row items-center gap-6">
                 <Avatar className="w-32 h-32 border-4 border-white shadow-md">
-                  <AvatarImage src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=256" alt="Фото методиста" />
+                  <AvatarImage src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=256" alt="Фото педагога-исследователя" />
                   <AvatarFallback>ММ</AvatarFallback>
                 </Avatar>
                 <div className="text-center md:text-left">
                   <CardTitle className="text-3xl font-bold">Иванова Мария Ивановна</CardTitle>
                   <CardDescription className="text-lg mt-2">
-                    Методист высшей квалификационной категории
+                    Педагог-исследователь высшей квалификационной категории
                   </CardDescription>
                   <div className="flex flex-wrap gap-3 mt-3 justify-center md:justify-start">
                     <Button variant="outline" size="sm" className="gap-2">
@@ -57,7 +56,7 @@ const Index = () => {
                       </li>
                       <li className="flex items-start gap-2">
                         <Icon name="Clock" className="text-blue-600 mt-1" size={18} />
-                        <span>Стаж методической работы: 15 лет</span>
+                        <span>Стаж исследовательской работы: 15 лет</span>
                       </li>
                       <li className="flex items-start gap-2">
                         <Icon name="Award" className="text-blue-600 mt-1" size={18} />
@@ -90,7 +89,7 @@ const Index = () => {
             <TabsContent value="general" className="space-y-6">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-2xl text-blue-700">Общие сведения о методисте</CardTitle>
+                  <CardTitle className="text-2xl text-blue-700">Общие сведения о педагоге-исследователе</CardTitle>
                   <CardDescription>Базовая информация о профессиональном пути и достижениях</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">
@@ -122,15 +121,15 @@ const Index = () => {
                           <span className="text-gray-600">2005-2010 гг.</span>
                         </div>
                         <p>МДОУ "Солнышко", г. Казань</p>
-                        
+                         
                         <div className="flex flex-col sm:flex-row sm:justify-between pt-2 border-t">
-                          <strong>Методист</strong>
+                          <strong>Педагог-исследователь</strong>
                           <span className="text-gray-600">2010-2018 гг.</span>
                         </div>
                         <p>МДОУ "Росинка", г. Казань</p>
-                        
+                         
                         <div className="flex flex-col sm:flex-row sm:justify-between pt-2 border-t">
-                          <strong>Старший методист</strong>
+                          <strong>Старший педагог-исследователь</strong>
                           <span className="text-gray-600">2018 г. - настоящее время</span>
                         </div>
                         <p>МДОУ "Звездочка", г. Казань</p>
@@ -147,7 +146,7 @@ const Index = () => {
                           <div className="text-sm text-gray-600">2022 г., 72 часа</div>
                         </li>
                         <li className="pb-2 border-b">
-                          <div className="font-medium">Инновационные подходы к организации методической работы в ДОУ</div>
+                          <div className="font-medium">Инновационные подходы к организации исследовательской работы в ДОУ</div>
                           <div className="text-sm text-gray-600">2021 г., 108 часов</div>
                         </li>
                         <li>
@@ -242,14 +241,14 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold mb-3">Результаты методической работы</h3>
+                    <h3 className="text-xl font-semibold mb-3">Результаты исследовательской работы</h3>
                     <div className="bg-white p-4 rounded-md shadow-sm">
                       <ul className="list-disc pl-5 space-y-2">
                         <li>Аттестация педагогов: 8 человек повысили квалификационную категорию за последние 3 года</li>
                         <li>Проведено 26 открытых занятий для обмена педагогическим опытом</li>
                         <li>Организовано 12 семинаров по внедрению инновационных технологий</li>
                         <li>Участие педагогов в профессиональных конкурсах выросло на 34%</li>
-                        <li>Опубликовано 17 методических разработок педагогов ДОУ</li>
+                        <li>Опубликовано 17 исследовательских разработок педагогов ДОУ</li>
                       </ul>
                     </div>
                   </div>
@@ -266,19 +265,19 @@ const Index = () => {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-semibold mb-3">Научно-методические публикации</h3>
+                    <h3 className="text-xl font-semibold mb-3">Научно-исследовательские публикации</h3>
                     <div className="bg-white p-4 rounded-md shadow-sm">
                       <ul className="space-y-3">
                         <li className="pb-2 border-b">
-                          <div className="font-medium">"Формирование предпосылок функциональной грамотности у старших дошкольников"</div>
+                          <div className="font-medium">{"Формирование предпосылок функциональной грамотности у старших дошкольников"}</div>
                           <div className="text-sm text-gray-600">Журнал "Дошкольное воспитание", №5, 2022 г.</div>
                         </li>
                         <li className="pb-2 border-b">
-                          <div className="font-medium">"Инновационные подходы к организации экологического воспитания в ДОУ"</div>
+                          <div className="font-medium">{"Инновационные подходы к организации экологического воспитания в ДОУ"}</div>
                           <div className="text-sm text-gray-600">Сборник материалов Всероссийской конференции, 2021 г.</div>
                         </li>
                         <li>
-                          <div className="font-medium">"Модель внутренней системы оценки качества образования в ДОУ"</div>
+                          <div className="font-medium">{"Модель внутренней системы оценки качества образования в ДОУ"}</div>
                           <div className="text-sm text-gray-600">Научно-методический журнал "Управление ДОУ", №3, 2020 г.</div>
                         </li>
                       </ul>
@@ -292,7 +291,7 @@ const Index = () => {
                         <div>
                           <h4 className="font-medium">Международная научно-практическая конференция "Современное дошкольное образование"</h4>
                           <p className="text-sm text-gray-600 mt-1">г. Москва, 2022 г.</p>
-                          <p className="mt-2">Доклад: "Цифровая трансформация методической службы ДОУ"</p>
+                          <p className="mt-2">Доклад: "Цифровая трансформация исследовательской деятельности в ДОУ"</p>
                         </div>
                         <div className="pt-3 border-t">
                           <h4 className="font-medium">Республиканский педагогический форум</h4>
@@ -304,7 +303,7 @@ const Index = () => {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold mb-3">Методические разработки и пособия</h3>
+                    <h3 className="text-xl font-semibold mb-3">Исследовательские разработки и пособия</h3>
                     <div className="bg-white p-4 rounded-md shadow-sm">
                       <ul className="space-y-3">
                         <li className="flex items-start gap-2">
@@ -325,7 +324,7 @@ const Index = () => {
                           <Icon name="BookOpen" className="text-blue-600 mt-1" size={18} />
                           <div>
                             <div className="font-medium">Программа "Наставничество в ДОУ: от теории к практике"</div>
-                            <p className="text-sm">Внедрена в систему методической работы ДОУ с 2020 г.</p>
+                            <p className="text-sm">Внедрена в систему исследовательской работы ДОУ с 2020 г.</p>
                           </div>
                         </li>
                       </ul>
@@ -341,7 +340,7 @@ const Index = () => {
       {/* Футер */}
       <footer className="bg-gray-800 text-white py-6 mt-10">
         <div className="container mx-auto px-4 text-center">
-          <p>© 2023-2024 Конкурс "Методист года дошкольной организации"</p>
+          <p> 2023-2024 Конкурс "Педагог-исследователь года дошкольной организации"</p>
           <p className="mt-2 text-gray-400 text-sm">Все права защищены</p>
         </div>
       </footer>
